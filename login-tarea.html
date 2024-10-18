@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: 'Garamont', Georgia, 'Times New Roman', Times, serif; /* Cambia la fuente del cuerpo del documento */
+        }
+    </style>
+</head>
+<body bgcolor="pink">
+    <h1 >Aplicar al trabajo</h1>
+   <form action="">
+    <p><label for="username ">Ingresá tu Nombre</label>
+    <input class="input" type="text" name="Ingresa tu nombre"/></p>
+    <p>
+        <label for="pasword">Ingresá tu Email</label>
+        <input type="text">
+        
+    </p>
+
+    <h2>Elegí tu país.</h2>
+    <form>
+        <label for="pais"></label>
+        <select id="pais" name="pais">
+          <option value="">Selecciona una opción</option>
+          <option value="madrid">Argentina</option>
+          <option value="barcelona">España</option>
+          <option value="valencia">Colombia</option>
+          <option value="sevilla">EEUU</option>
+          </form>
+        </select>
+     <h2>Elegí el horario.</h2>
+     <form>
+        <input type="radio" id="matutino" name="turno" value="matutino">
+        <label for="matutino">Matutino</label>
+      
+        <input type="radio" id="nocturno" name="turno" value="nocturno">
+        <label for="nocturno">Nocturno</label>
+      
+        <input type="radio" id="mixto" name="turno" value="mixto">
+        <label for="mixto">Mixto</label>
+      </form>
+      <h2>Aceptar terminos y condiciones.</h2>
+      <input type="checkbox" name="aceptar" id="aceptar">
+      <label for="mixto">Si acepto.</label>
+
+      <h2>Dejame tus comentarios.</h2>
+      <form>
+        <textarea id="comentarios" name="comentarios" rows="5" cols="45">
+          Zona de comentarios...
+        </textarea><br>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Resetear">
+      </form>
+</body>
+</html>
